@@ -170,3 +170,8 @@ button:hover {
   background: var(--heavyMetal);
   color: var(--starship);
 }
+
+span{
+  color: rgb(193, 66, 66);
+  margin-left: 30px ;
+}
