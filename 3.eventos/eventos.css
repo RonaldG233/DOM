@@ -131,6 +131,22 @@ input {
   color: var(--sycamore);
 }
 
+label{
+  
+}
+
+select{
+  display: block;
+  width: 90%;
+  padding: calc(var(--padding) + 4px);
+  margin: var(--margin) auto;
+  border: solid 1px var(--heavyMetal);
+  border-radius: 4px;
+  outline: none;
+  font-size: 1rem;
+  color: var(--sycamore);
+}
+
 button {
   display: block;
   width: 90%;
@@ -174,4 +190,32 @@ button:hover {
 span{
   color: rgb(193, 66, 66);
   margin-left: 30px ;
+}
+
+.error{
+  border-width: 3px;
+  border-style: solid;
+  border-color: red;
+}
+.genero{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+.genero__hombre{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.genero__mujer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.lenguajes{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
 }
