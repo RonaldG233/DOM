@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
@@ -183,3 +183,41 @@ button:hover {
   align-items: center;
   width: 30px;
 }
+
+.uso_polit{
+  display: flex;
+}
+.text_polit{
+  justify-content: end;
+  
+  font-size: 16px;
+  
+
+}
+.check_polit{
+width: 160px;
+}
+
+/*barra de navegacion*/
+ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 50px;
+  background-color: var(--starship);
+  
+  }
+  li {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  a{
+    color: var(--heavyMetal);
+  }
+
+  li:hover{
+    background-color: #fbf6a6;
+    transition: 1s;
+  }
+
