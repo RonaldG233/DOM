@@ -29,6 +29,9 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.input__generos{
+  display: flex;
+}
 header {
   text-align: center;
   background: var(--heavyMetal);
@@ -119,25 +122,9 @@ form {
   padding: var(--padding);
 }
 
-input {
+input,select {
   display: block;
-  width: 90%;
-  padding: calc(var(--padding) + 4px);
-  margin: var(--margin) auto;
-  border: solid 1px var(--heavyMetal);
-  border-radius: 4px;
-  outline: none;
-  font-size: 1rem;
-  color: var(--sycamore);
-}
-
-label{
-  
-}
-
-select{
-  display: block;
-  width: 90%;
+  width: 100%;
   padding: calc(var(--padding) + 4px);
   margin: var(--margin) auto;
   border: solid 1px var(--heavyMetal);
@@ -187,35 +174,12 @@ button:hover {
   color: var(--starship);
 }
 
-span{
-  color: rgb(193, 66, 66);
-  margin-left: 30px ;
+.border-red{
+  border: solid 1px red;
 }
 
-.error{
-  border-width: 3px;
-  border-style: solid;
-  border-color: red;
-}
-.genero{
+.checkbox__hijo{
   display: flex;
-  gap: 20px;
-  flex-direction: row;
-}
-.genero__hombre{
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 10px;
-}
-.genero__mujer{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-}
-.lenguajes{
-  display: flex;
-  gap: 20px;
-  flex-direction: row;
+  width: 30px;
 }
